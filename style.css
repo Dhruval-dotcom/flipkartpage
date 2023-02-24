@@ -81,7 +81,12 @@ header{
     text-transform: capitalize;
     line-height: 50px;
 }
-
+#nav-search{
+    font-size: 19px;
+}
+.caro-image{
+    width: 100%;
+}
 .header-right a{
     text-decoration: none;
     color: white;
@@ -218,6 +223,9 @@ header{
     font-weight: bold;
     padding:auto;
 }
+#clock-image{
+    width: 20px;
+}
 .common-heading-left h2{
     font-size: 15px;
     padding: 5px 0px;
@@ -313,6 +321,10 @@ header{
     height: 150px;
 }   
 
+.iframe-home{
+    border: none;margin-left: 0%;
+   
+}
 
 /* <!-- Furniture Bestsellers section --> */
 
@@ -460,12 +472,15 @@ footer{
     line-height: 50px;
     letter-spacing: .7px;
 }
-
 .fa-shopping-bag, .fa-star, .fa-gift ,.fa-question-circle{
     color: #ffd700;
     cursor: pointer;
     padding-right: 10px;
     font-size: 15px;
+}
+
+#fa-star-home{
+    color:#ffd700;
 }
 
 @media screen and (max-width:1380px) {
@@ -486,6 +501,21 @@ footer{
         left: 90%;
     }
 }
+
+
+#home-nav{
+    display: flex;
+    flex-direction: row;
+}
+.home-section{
+    display: flex;
+}
+
+.home-section-bottom{
+    display: flex;
+    margin-bottom: 40px;
+}
+
 /*product page */
 .fa-tag{
     color: #ff6000;
@@ -523,6 +553,9 @@ footer{
 .tablehead{
     color: rgba(0, 0, 0, 0.507);
 }
+#tag-pro{
+    color: rgba(137, 43, 226, 0.685);
+}
 #imagepro{
     height: 700px;
     width: 600px;
@@ -544,7 +577,9 @@ footer{
 .fa-star{
     color: white;
 }
-
+.df{
+    display: flex;
+}
 .frontl-middle{
     width: 520px;
     padding: 10px 20px;

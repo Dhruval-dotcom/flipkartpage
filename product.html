@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flipkart</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product-style.css">
     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,7 +20,7 @@
 <body>
 
     <!--header section starts-->
-    <header style="display:flex;">
+    <header id="home-nav">
         <div class="header-left">
             <a href="#">Flipkart</a>
             <div class="header-left-p">
@@ -102,42 +103,42 @@
             <div class="common-heading">
                 <div class="common-heading-left">
                  <h1 id="headingpro">Top Picks On Men's Clothing</h1>
-                 <h2 id="tagpro" style="color: rgba(137, 43, 226, 0.685);">Home / Men's Clothing</h2>
+                 <h2 id="tagpro">Home / Men's Clothing</h2>
                 </div>
                 
             </div>
             
 
-            <div style="display: flex;margin-left: 200px;position: sticky;">
+            <div id="main-div-pro">
 
                 <div><img id="imagepro" src="flipkart images/c3.jpeg" alt=""><br><br><br><br>
                     <button type="button" id="addcart" class="btn btn-primary btn-lg"> <i class="fa fa-shopping-cart"></i> <b>Add To Cart</b></button>
                     <button type="button" id="buynow" class="btn btn-primary btn-lg"> <i class="fa fa-bolt"></i> <b>Buy Now</b></button>
                 </div>
 
-                <div style="margin-left: 100px;margin-top: 40px;margin-right: 150px;">
-                    <h1 id="namepro" style="align-items: center;">Cap</h1>
-                    <span style="font-size: larger;">₹</span><span style="font-size: larger;" id="pricepro">159</span> <br><br>
+                <div id="desc-div-pro">
+                    <h1 id="namepro">Cap</h1>
+                    <span id="price-span">₹</span><span id="pricepro">159</span> <br><br>
                     <span class="toprat" >4.5 <i class="fa fa-star"></i></span><br><br>
-                    <i class="fa fa-tag"></i> Bank OfferFlat ₹100 Instant Cashback on Paytm Wallet. Min Order Value ₹1000. Valid once per Paytm account <span sclass="tnc""><b>T&C</b> </span><br>
+                    <i class="fa fa-tag"></i> Bank OfferFlat ₹100 Instant Cashback on Paytm Wallet. Min Order Value ₹1000. Valid once per Paytm account <span class="tnc"><b>T&C</b> </span><br>
                     <i class="fa fa-tag"></i> Bank Offer5% Cashback on Flipkart Axis Bank Card <span class="tnc"><b>T&C</b> </span> <br>
                     <i class="fa fa-tag"></i> Buy this Product and Get Extra ₹500 Off on Two-Wheelers <span class="tnc"><b>T&C</b> </span><br>
                     <i class="fa fa-tag"></i> Partner OfferSign up for Flipkart Pay Later and get Flipkart Gift Card worth up to ₹500*<span class="tnc""><b>Know more</b> </span> <br>    
                     <i class="fa fa-tag"></i> <span id="seeoffer" >See 1 more offer </span>
 
-                    <i style="color:black;" class="fa fa-location-dot"></i> <br> <br><br>
+                   <br> <br><br>
 
-                    <div style="display: flex;">
-                        <div style="margin-right: 40px;"><span class="tablehead"><b>Delivery</b></span></div>
+                    <div class="df">
+                        <div id="desc1"><span class="tablehead"><b>Delivery</b></span></div>
                         <div><input type="text" placeholder="Enter pincode" id="deliinput">
-                            <img style="height: 19px;width:19px;"" src="flipkart images/free-location-icon-2955-thumb.png" alt=""><br>
+                            <img id="location-image" src="flipkart images/free-location-icon-2955-thumb.png" alt=""><br>
                             <span>Delivery by 26 Feb,sunday</span><br>
                             <span class="tnc"><b>View Details</b> </span></div>
                         
                     </div><br><br>
 
-                    <div style="display: flex;">
-                        <div style="margin-right: 40px;"><span class="tablehead"><b>Highlights</b></span></div>
+                    <div class="df">
+                        <div id="desc2"><span class="tablehead"><b>Highlights</b></span></div>
                         <div>
                             <ul>
                                 <li>One year carry into service center</li>
@@ -146,8 +147,8 @@
                         </div>
                     </div><br><br>
 
-                    <div style="display: flex;">
-                        <div style="margin-right: 72px;"><span class="tablehead"><b>Seller</b></span></div>
+                    <div class="df">
+                        <div id="desc3"><span class="tablehead"><b>Seller</b></span></div>
                         <div>
                             <span class="tnc"><b>MTAILMODEECOM</b> <span id="sellerrating">4.4 <i class="fa fa-star"></i></span> </span>
                             <ul>
@@ -157,9 +158,9 @@
                         </div>
                     </div><br><br>
 
-                    <div style="display: flex;">
-                        <div style="margin-right: 10px;"><span class="tablehead"><b>Description</b></span></div>
-                        <div><p style="text-align: justify;">Lorem ipsum dolor totam commodi minus at molestiae? Voluptate,Ipsa 
+                    <div class="df" >
+                        <div id="desc4"><span class="tablehead"><b>Description</b></span></div>
+                        <div><p id="desc-para">Lorem ipsum dolor totam commodi minus at molestiae? Voluptate,Ipsa 
                             beatae laudantium voluptatibus magnam corrupti quas distinctio, praesentium blanditiis? 
                             Sequi quis modi delectus aut fugit explicabo eum repudiandae? Dignissimos unde ipsum 
                             rerum quaerat consequatur, ipsa vel magnam officia qui alias voluptatibus ut ex ducimus 
@@ -172,7 +173,7 @@
                     </div>
                  <br><br>
                     <div class="frontl">
-                        <div class="frontl-middle" style="border-top: 1px solid rgba(0, 0, 0, 0.192); font-weight: bold;color: rgba(0, 0, 0, 0.507);"><span style="font-size: 25px;">Specification</span></div>
+                        <div class="frontl-middle" class="black-5" id="t1"><span id="t8">Specification</span></div>
                     </div>
                     <div class="frontl">
                         <div class="frontl-middle"><h2>In the box</h2><span>Manual, Concentrator, Main Unit <br> <br></span></div>
@@ -180,8 +181,8 @@
                     <div class="frontl">
                         <div class="frontl-middle">
                             <h2>General</h2><br>
-                            <div style="display: flex;color: rgba(0, 0, 0, 0.507);font-weight: 500; width: 500px;">
-                                <div style="margin-right: 70px;"> Brand
+                            <div class="black-5" id="t2">
+                                <div id="t9"> Brand
                                         <br><br>
                                     Model Number
                                         <br><br>
@@ -198,7 +199,7 @@
                                         <br><br>
                                     Technology Used
                                  </div>
-                                <div style="margin-left: 30px;color: black;">
+                                <div id="t3">
                                     PHILIPS
                                     <br><br>
                                     HP8010/10
@@ -218,14 +219,14 @@
                     <div class="frontl">
                         <div class="frontl-middle">
                             <h2>Power Requirements</h2><br>
-                            <div style="display: flex;color: rgba(0, 0, 0, 0.507);font-weight: 500;">
-                                <div style="margin-right: 132px;"> Wattage 
+                            <div class="black-5" id="t4">
+                                <div id="t10"> Wattage 
                                         <br><br>
                                         Universal Voltage
                                         <br><br>
                                     
                                  </div>
-                                <div style="margin-left: 30px;color: black;">
+                                <div id="t11">
                                     1000W
                                     <br><br>
                                     NO <br><br>
@@ -236,8 +237,8 @@
                     <div class="frontl">
                         <div class="frontl-middle">
                             <h2>Additional Features</h2><br>
-                            <div style="display: flex;color: rgba(0, 0, 0, 0.507);font-weight: 500;">
-                                <div style="margin-right: 130px"> Foldable
+                            <div class="black-5" id="t5">
+                                <div id="t12"> Foldable
                                         <br><br>
                                         Other Features
 	
@@ -246,7 +247,7 @@
                                         Covered in Warranty <br><br>
                                         Not Covered in Warranty <br><br>
                                  </div>
-                                <div style="margin-left: 30px;color: black;"> 	
+                                <div id="t13"> 	
 
                                   2 Years PHILIPS India Warranty and Free Transit Insurance.
                                     <br><br>
@@ -268,15 +269,15 @@
                         <div class="frontl-middle">
                             
                             <h2>Warranty</h2><br>
-                            <div style="display: flex;color: rgba(0, 0, 0, 0.507);font-weight: 500;">
-                                <div style="margin-right: 180px;"> Warranty
+                            <div class="black-5" id="t6">
+                                <div id="t14"> Warranty
                                         <br><br>
                                         Warranty Summary
 	
                                         <br><br>
                                     
                                  </div>
-                                <div style="margin-left: 30px;color: black;">
+                                <div id="t16">
                                     NO
                                     <br><br>
                                     Narrow Concentrator for Focused Airflow, 2 Speed Settings, 1000 W Power Consumption <br><br>
@@ -288,15 +289,15 @@
                         <div class="frontl-middle">
                             
                     <h2> Features</h2><br>
-                            <div style="display: flex;color: rgba(0, 0, 0, 0.507);font-weight: 500;">
-                                <div style="margin-right: 188px;" > Foldable
+                            <div class="black-5" id="t7">
+                                <div id="t15" > Foldable
                                         <br><br>
                                         Other Features
 	
                                         <br><br>
                                     
                                  </div>
-                                <div style="margin-left: 30px;color: black;">
+                                <div id="t17">
                                     NO
                                     <br><br>
                                      Narrow Concentrator for Focused Airflow, 2 Speed Settings, 1000 W Power Consumption <br><br>
@@ -304,9 +305,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="frontl" style="margin-bottom: 40px;">
+                    <div class="frontl" id="t18">
                         <div class="frontl-middle">
-                            <span style="color:rgba(37, 37, 204, 0.795);font-size: 15px;">Manufacturing, Packaging and Import Info</span>
+                            <span id="t19" >Manufacturing, Packaging and Import Info</span>
                         </div>
                     </div> 
                 </div>
@@ -317,11 +318,11 @@
     <!-- Mobile section ends -->
 
     <section>
-        <div class="card" style="margin-bottom: 40px;">
+        <div class="card" id="product-card">
             <div class="common-heading">
                 <div class="common-heading-left">
                     <h1>Similar Products </h1>
-                    <div style="display: flex;"><h2>Up to 50% OFF</h2> </div>
+                    <div class="df"><h2>Up to 50% OFF</h2> </div>
                 </div>
                 <div class="common-heading-right">
                     <button>view all</button>
@@ -470,7 +471,7 @@
                 <p> <i class="fa fa-shopping-bag"></i>Sell On Flipkart</p>
             </div>
             <div class="footer-row2-col">
-                <p><i style="color: #ffd700" class="fa fa-star"></i>Advertise</p>
+                <p><i id="fa-star-home" class="fa fa-star"></i>Advertise</p>
             </div>
             <div class="footer-row2-col">
                 <p><i class="fa fa-gift"></i>Gift Cards</p>
