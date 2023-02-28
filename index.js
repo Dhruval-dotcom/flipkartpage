@@ -12,31 +12,26 @@ let price=link.substring(indprice+6,len);
 image="flipkart images/"+image;
 
 document.getElementById("imagepro").src=image;
+let x="";
 if(tag=="Mobiles"){
-    document.getElementById("headingpro").innerHTML="Best Battery Phones";
+    x="Best Battery Phones";
 }
 if(tag=="headphones"){
-    document.getElementById("headingpro").innerHTML="Top Deals on Electronics";
+    x="Top Deals on Electronics";
 }
 if(tag=="men"){
-    document.getElementById("headingpro").innerHTML="Top Picks On Men's Clothing ";
-}
-if(tag=="furniture"){
-    document.getElementById("headingpro").innerHTML="Furniture Bestsellers section ";
-}
-if(tag=="trending"){
-    document.getElementById("headingpro").innerHTML="Trending offers";
-}
-
-if(tag=="men"){
+    x="Top Picks On Men's Clothing ";
     tag="Men's Clothing";
 }
 if(tag=="furniture"){
+    x="Furniture Bestsellers section ";
     tag="Best Furnitures"
 }
 if(tag=="trending"){
+    x="Trending offers";
     tag="Trending Offers"
 }
+document.getElementById("headingpro").innerHTML=x
 
 tag="Home / "+tag;
 name=name.replaceAll("%20"," ");
