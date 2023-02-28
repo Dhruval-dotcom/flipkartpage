@@ -1,4 +1,4 @@
-var multipleCardCarousel = document.querySelector(
+let multipleCardCarousel = document.querySelector(
     "#carouselExampleControls"
   );
   if (window.matchMedia("(min-width: 768px)").matches) {

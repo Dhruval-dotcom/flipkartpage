@@ -112,8 +112,6 @@ header{
     padding-left: 5px;
 
 }
- /* <!-- header section styling ends--> */
-
 
  /* <!-- category-section starts here --> */
 
@@ -138,58 +136,7 @@ header{
    color: #2874f0;
 }
 
- /* <!-- category-section ends here --> */ 
-
 /* <!-- banner section starts here --> */
-
-.banner{
-    position: absolute;
-    top: 170px;
-    width: 100%;
-    overflow: hidden;
-    
-}
-.slider{
-    width: 4098px;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    animation-name: slide;
-    animation-duration: 9s;
-    animation-iteration-count: infinite;
-}
-
-
-.slider img{
-    width: 500%;
-    height: 300px;
-} 
-@keyframes slide{
-    0%{
-        left: 0px;
-    }
-    26.66%{
-        left: 0px;
-    }
-     33.33%{
-        left: -1366px;
-    }
-     60%{
-        left: -1366px;
-    }
-    66.66%{
-        left: -2732px;
-    }
-    93.33%{
-        left: -2732px;
-    }
-
-    100%{
-        left: -4098px;
-    }
-
-}
-/* <!-- banner section styling ends here--> */
 
 /* <!-- Mobile section styling starts here--> */
 #cbz{
@@ -595,46 +542,3 @@ footer{
     padding: 30px 20px;
     text-align: justify;
 }
-/*
-.carousel-inner {
-    padding: 1em;
-  }
-  .card2 {
-    margin: 0 0.5em;
-    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
-    border: none;
-  }
-  .carousel-control-prev,
-  .carousel-control-next {
-    background-color: #e1e1e1;
-    width: 6vh;
-    height: 6vh;
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  @media (min-width: 768px) {
-    .carousel-item {
-      margin-right: 0;
-      flex: 0 0 33.333333%;
-      display: block;
-    }
-    .carousel-inner {
-      display: flex;
-    }
-  }
-  .card2 .img-wrapper {
-      max-width: 100%;
-      height: 13em;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .card2 img {
-      max-height: 100%;
-  }
-  @media (max-width: 767px) {
-    .card2 .img-wrapper {
-      height: 17em;
-    }
-  } */
