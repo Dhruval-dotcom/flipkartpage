@@ -1,5 +1,4 @@
 let link=window.location.href;
-//"?image=fyufyu&&tag=Mob&&name=product222&&price=200"
 let indimage=link.indexOf("image");
 let indname=link.indexOf("name");
 let indtag=link.indexOf("tag");
